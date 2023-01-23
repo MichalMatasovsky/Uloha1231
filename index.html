@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Michal Maťašovský</title>
+  <title>Domáca úloha 11.3.1.</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 </head>
 <body>
+  <h1 id="1">Domáca úloha 11.3.1.</h1>
+  <button onclick="navysXaZapisDoH1()">Navys cislo x</button>
+ 
+<script>
 
 
-<div class="jumbotron text-center text-white bg-primary">
-  <h1>Michal Maťašovský</h1>
-  <h2>Životopis</h2> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Pracovné skúsenosti</h3>
-      <p><strong>& Social Media Manager</strong></p>
-      <p>Správa sociálnych sietí a organizovanie eventov.</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Vzdelanie</h3>
-      <p><strong>Univerzita Konštantína Filozofa v Nitre</strong></p>
-      <p>Odbor Marketingová komunikácia a reklama</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Kurzy</h3>        
-      <p><strong>IT v kurze</strong></p>
-      <p>Front-End developer. Štúdium zamerané na HTML, CSS, JavaScript, Java.</p>
-    </div>
-  </div>
-</div>
+function spocitaj(a = 4, b = 2){
+
+  console.log(a);
+  console.log(b);
+
+  console.log("Vykonávam matematické operácie");
+  console.log("Sucet je");
+  return a + b;
+  }
+
+console.log((spocitaj()));
+
+
+
+function odcitaj(a = 4, b = 2){
+  console.log("Rozdiel je");
+return a - b;
+
+}
+
+console.log((odcitaj()));
+
+
+
+function vynasob(a = 4, b = 2){
+  console.log("Súčin je");
+return a * b;
+
+}
+
+console.log((vynasob()));
+
+
+
+function vydel(a = 4, b = 2){
+  console.log("Podiel je");
+return a / b;
+
+}
+
+console.log((vydel()));
+
+</script>
+
 
 </body>
 </html>
