@@ -1,61 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Domáca úloha 11.3.1.</title>
+  <title>Domáca úloha 12.3.1.</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-</head>
+ </head>
+
+
 <body>
-  <h1 id="1">Domáca úloha 11.3.1.</h1>
+
  <script>
+  
+  for (i = 1990; i < 2031; i++){
 
+    let vypis = i;
 
-function spocitaj(a = 4, b = 2){
-
-  console.log(a);
-  console.log(b);
-
-  console.log("Vykonávam matematické operácie");
-  console.log("Sucet je");
-  return a + b;
+  if (i % 4 == 0) {
+    vypis += " P";
+  } 
+  if (i == 1988) {
+    vypis += " N";
+  } 
+  if (i % 10 == 0) {
+    vypis += " O";
+  } 
+    console.log(vypis);
   }
-
-console.log((spocitaj()));
-
-
-
-function odcitaj(a = 4, b = 2){
-  console.log("Rozdiel je");
-return a - b;
-
-}
-
-console.log((odcitaj()));
-
-
-
-function vynasob(a = 4, b = 2){
-  console.log("Súčin je");
-return a * b;
-
-}
-
-console.log((vynasob()));
-
-
-
-function vydel(a = 4, b = 2){
-  console.log("Podiel je");
-return a / b;
-
-}
-
-console.log((vydel()));
-
 </script>
-
 
 </body>
 </html>
